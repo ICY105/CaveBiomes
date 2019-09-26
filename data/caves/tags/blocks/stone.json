@@ -1,0 +1,14 @@
+{
+	"values":[
+		"minecraft:stone",
+		"minecraft:cobblestone",
+		"minecraft:mossy_cobblestone",
+		"minecraft:infested_stone",
+		"minecraft:infested_cobblestone",
+		"minecraft:andesite",
+		"minecraft:granite",
+		"minecraft:diorite",
+		"minecraft:gravel",
+		"minecraft:dirt"
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"values":[
+		"minecraft:air",
+		"minecraft:cave_air",
+		"minecraft:void_air",
+		
+		"minecraft:oak_planks",
+		"minecraft:oak_fence",
+		"minecraft:dark_oak_planks",
+		"minecraft:dark_oak_fence",
+		"minecraft:cobweb",
+		
+		"minecraft:lava",
+		"minecraft:water",
+		"minecraft:bubble_column",
+		
+		"minecraft:red_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:brown_mushroom_block",
+		"minecraft:red_mushroom_block",
+		"minecraft:grass",
+		"minecraft:tall_grass",
+		"minecraft:fern",
+		"minecraft:kelp",
+		"minecraft:seagrass",
+		
+		"minecraft:coal_ore",
+		"minecraft:iron_ore",
+		"minecraft:gold_ore",
+		"minecraft:redstone_ore",
+		"minecraft:lapis_ore",
+		"minecraft:diamond_ore",
+		"minecraft:emerald_ore",
+		"minecraft:nether_quartz_ore",
+		
+		"minecraft:chest",
+		"minecraft:spawner",
+		"minecraft:magma_block",
+		
+		"minecraft:bedrock",
+		"minecraft:barrier",
+		"minecraft:structure_block",
+		"minecraft:structure_void",
+		"minecraft:jigsaw",
+		"minecraft:end_portal_frame",
+		"minecraft:end_portal",
+		"minecraft:nether_portal",
+		"minecraft:command_block",
+		"minecraft:repeating_command_block",
+		"minecraft:chain_command_block"
+	]
+}
