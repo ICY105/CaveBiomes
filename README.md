@@ -19,7 +19,7 @@ Some caves are dependant on the surface biome (ie. Ice Caves only spawn on cold 
 ## Installation
 
 1. Download the latest version of CaveBiomes from [releases](https://github.com/ImCoolYeah105/CaveBiomes/releases). 
-2. Download the latest version of ![Datapack Utils](https://github.com/ImCoolYeah105/Datapack-Utilities) from ![releases](https://github.com/ImCoolYeah105/Datapack-Utilities/releases).
+2. Download the latest version of [Datapack Utils](https://github.com/ImCoolYeah105/Datapack-Utilities) from [releases](https://github.com/ImCoolYeah105/Datapack-Utilities/releases).
 3. Add both datapacks to the datapack folder of your chosen world.
 4. Enter the world and run /reload.
 
