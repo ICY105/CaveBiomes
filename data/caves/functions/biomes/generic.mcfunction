@@ -1,21 +1,27 @@
 
-#0-10 vanilla
-#1-1 obsidian
-#2-2 granite
-#3-2 andesite
-#4-2 diorite
-#5-4 overgrown
-#6-2 underground forest
-#7-1 flooded
-##8-4 web
-#9-1 mushroom
-#10-1 underground dark oak forest
-#11-1 underground spruce forest
+#0 vanilla - standard
+#1 vanilla - clean
+#2 vanilla - dirt
+#3 vanilla - chaotic
+#4 vanilla - sandy
+#5 vanilla - stone brick
+#6 granite
+#7 andesite
+#8 diorite
+#9 overgrown
+#10 obsidian
+#11 underground oak forest
+#12 underground spruce forest
+#13 underground birch forest
+#14 underground jungle forest
+#15 underground acacia forest
+#16 underground dark oak forest
+#17 mushroom forest
 
 #20: Ice
-#21: Crystal
+##21: Crystal
 #40: Prismarine
-#41: Coral
+##41: Coral
 #60: Sandstone
 #61: Red Sandstone
 #62: white/yellow/brown Terracotta

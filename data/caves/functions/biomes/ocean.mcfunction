@@ -3,7 +3,7 @@
 #40-29: Prismarine
 #41-9: Coral
 
-scoreboard players set temp_1 cave_data 67
+scoreboard players set temp_1 cave_data 57
 scoreboard players operation temp_0 cave_data %= temp_1 cave_data
 scoreboard players operation in_0 cave_data = temp_0 cave_data
 

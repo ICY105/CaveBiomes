@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:golden_hoe",
+		  "functions": [
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+			    {
+				  "name":"generic.0",
+				  "attribute":"generic.0",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.1",
+				  "attribute":"generic.1",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.2",
+				  "attribute":"generic.2",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.3",
+				  "attribute":"generic.3",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.4",
+				  "attribute":"generic.4",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.5",
+				  "attribute":"generic.5",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.6",
+				  "attribute":"generic.6",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.7",
+				  "attribute":"generic.7",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.8",
+				  "attribute":"generic.8",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.9",
+				  "attribute":"generic.9",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.10",
+				  "attribute":"generic.10",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				},
+				{
+				  "name":"generic.11",
+				  "attribute":"generic.11",
+				  "operation":"addition",
+				  "slot":"head",
+				  "amount":{
+				    "min":0,
+					"max":1
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+	  ]
+	}
+  ]
+}
+
+

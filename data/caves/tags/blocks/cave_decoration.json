@@ -7,7 +7,6 @@
 		"minecraft:dark_oak_planks",
 		"minecraft:dark_oak_fence",
 		"minecraft:cobweb",
-		"minecraft:lava",
 		"minecraft:water",
 		"minecraft:bubble_column",
 		"minecraft:red_mushroom",
@@ -16,6 +15,7 @@
 		"minecraft:tall_grass",
 		"minecraft:fern",
 		"minecraft:kelp",
-		"minecraft:seagrass"
+		"minecraft:seagrass",
+		"minecraft:rail"
 	]
 }
