@@ -1,12 +1,12 @@
-Warning: This project is in Alpha DO NOT add to a world that you care about. I mean it.
+Warning: This project generates new caves in existing chunks, and may damage underground structures you have built. It is highly recommended to install in a new world. If you add it to an existing world, take a backup first!
 
 # CaveBiomes
-A Minecraft Datapack that adds over 25 new cave biomes to improve the look and feel of the underground, including:
+A Minecraft Datapack that adds 34 new cave biomes to improve the look and feel of the underground, including:
 
+* Improved vanilla caves
 * Underground Forest Caves
 * Obsidian Caves
 * Granite, Andesite, and Diroite Caves
-* Flooded Caves
 * Ice Caves
 * Prismarine Caves
 * Regular & Red Sandstone Caves
