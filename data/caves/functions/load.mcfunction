@@ -1,5 +1,4 @@
 
 scoreboard objectives add cave_data dummy
 scoreboard objectives add cave_id dummy
-
-gamerule doFireTick false
+schedule function caves:install 1s

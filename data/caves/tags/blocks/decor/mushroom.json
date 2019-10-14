@@ -1,0 +1,14 @@
+{
+	"values":[
+		"#caves:cave_decoration-water",
+		"#du:stone",
+		"minecraft:coal_ore",
+		"minecraft:iron_ore",
+		"minecraft:gold_ore",
+		"minecraft:lapis_ore",
+		"minecraft:redstone_ore",
+		"minecraft:diamond_ore",
+		"minecraft:emerald_ore",
+		"minecraft:mushroom_stem"
+	]
+}

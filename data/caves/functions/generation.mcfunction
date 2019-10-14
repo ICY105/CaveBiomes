@@ -26,7 +26,7 @@ execute if score temp_0 cave_data matches ..-1 run scoreboard players operation 
 function caves:biomes/get_cave_id
 
 #run custom cave function
-#function caves:custom/main
+function caves:custom/main
 
 #run search function
 summon minecraft:area_effect_cloud ~ 0 ~ {Tags:["cave_gen","cave_new"],Duration:2000000000}

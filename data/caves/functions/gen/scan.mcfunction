@@ -4,7 +4,7 @@
 ##temp_0: loop counter -> loop counter
 
 #if found cave, run decorate
-execute if block ~ ~ ~ #caves:cave_decoration run function caves:gen/decorate
+execute if block ~ ~ ~ #caves:cave_decoration-water run function caves:gen/decorate
 
 #loop
 scoreboard players remove temp_0 cave_data 1

@@ -19,9 +19,9 @@
 #17 mushroom forest
 
 #20: Ice
-##21: Crystal
+#21: Crystal
 #40: Prismarine
-##41: Coral
+#41: Coral
 #60: Sandstone
 #61: Red Sandstone
 #62: white/yellow/brown Terracotta
@@ -33,6 +33,7 @@
 #80: End
 #81: Nether
 #82: Quartz
+#83: Netherbrick cave
 
 scoreboard players set temp_1 cave_data 29
 scoreboard players operation temp_0 cave_data %= temp_1 cave_data

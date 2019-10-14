@@ -6,12 +6,12 @@ execute positioned ~ ~-1 ~ if block ~ ~ ~ #caves:stone run function caves:gen/de
 execute positioned ~ ~01 ~ if block ~ ~ ~ #caves:stone run function caves:gen/decorate_ceiling
 
 scoreboard players set in_2 cave_data 1
-execute positioned ~01 ~ ~ if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration run function caves:gen/decorate_wall
+execute positioned ~01 ~ ~ if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration-water run function caves:gen/decorate_wall
 scoreboard players set in_2 cave_data 2
-execute positioned ~-1 ~ ~ if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration run function caves:gen/decorate_wall
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration-water run function caves:gen/decorate_wall
 scoreboard players set in_2 cave_data 3
-execute positioned ~ ~ ~01 if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration run function caves:gen/decorate_wall
+execute positioned ~ ~ ~01 if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration-water run function caves:gen/decorate_wall
 scoreboard players set in_2 cave_data 4
-execute positioned ~ ~ ~-1 if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration run function caves:gen/decorate_wall
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #caves:stone unless block ~ ~1 ~ #caves:cave_decoration-water run function caves:gen/decorate_wall
 
 
