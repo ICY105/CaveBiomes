@@ -32,3 +32,5 @@ Some caves are dependant on the surface biome (ie. Ice Caves only spawn on cold 
 ![Imgur](https://i.imgur.com/2kqWnid.png)
 
 ![Imgur](https://i.imgur.com/cY0bOWA.png)
+
+![Imgur](https://i.imgur.com/im1WCuR.png)
