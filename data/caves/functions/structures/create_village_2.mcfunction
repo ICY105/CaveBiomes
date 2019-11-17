@@ -1,5 +1,5 @@
 
-#get random large house
+#get random village center
 #scoreboard players set in_0 du_data 4
 #function du:math/random
 scoreboard players set out_0 du_data 0

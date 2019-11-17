@@ -3,22 +3,22 @@
 #>in_1: cave height
 #>temp_0: 16 const -> cave biome ID
 
-##in_2 du_data: chunk x pos
-##in_3 du_data: chunk z pos
-##in_4 du_data: chunk dimension
-##in_5 du_data: map seed
-##in_6 du_data: local biome
+## $du.x du_data: x cord
+## $du.z du_data: z cord
+## $du.dim du_data: current dimension
+## $du.biome du_data: current biome
+#* $du.seed du_data: world seed
 
 #get cave biome
-scoreboard players set temp_0 cave_data 16
-scoreboard players operation temp_1 cave_data = in_2 du_data
-scoreboard players operation temp_2 cave_data = in_3 du_data
+scoreboard players set temp_0 cave_data 48
+scoreboard players operation temp_1 cave_data = $du.x du_data
+scoreboard players operation temp_2 cave_data = $du.z du_data
 
 scoreboard players operation temp_1 cave_data /= temp_0 cave_data
 scoreboard players operation temp_2 cave_data /= temp_0 cave_data
 
-scoreboard players operation temp_0 cave_data = in_5 du_data
-scoreboard players operation temp_0 cave_data -= temp_1 cave_data
+scoreboard players operation temp_0 cave_data = $du.seed du_data
+scoreboard players operation temp_0 cave_data *= temp_1 cave_data
 scoreboard players operation temp_0 cave_data *= temp_2 cave_data
 
 scoreboard players set temp_1 cave_data -1
@@ -28,8 +28,8 @@ function caves:biomes/get_cave_id
 #run custom cave function
 function caves:custom/main
 
+#run create structure
+execute as @e[tag=du_super_chunk,tag=!cave_checked] at @s run function caves:structures/create_structure
+
 #run search function
-summon minecraft:area_effect_cloud ~ 0 ~ {Tags:["cave_gen","cave_new"],Duration:2000000000}
-scoreboard players operation @e[tag=cave_new] cave_id = in_0 cave_data
-scoreboard players operation @e[tag=cave_new] cave_data = in_1 cave_data
-tag @e[tag=cave_new] remove cave_new
+function caves:gen/search

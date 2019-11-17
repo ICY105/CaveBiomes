@@ -34,42 +34,42 @@ execute if score temp_0 cave_data matches 7..8 run scoreboard players set in_0 c
 execute if score temp_0 cave_data matches 7..8 run scoreboard players set in_1 cave_data 48
 
 execute if score temp_0 cave_data matches 9 run scoreboard players set in_0 cave_data 5
-execute if score temp_0 cave_data matches 9 run scoreboard players set in_1 cave_data 28
+execute if score temp_0 cave_data matches 9 run scoreboard players set in_1 cave_data 36
 
 execute if score temp_0 cave_data matches 10..11 run scoreboard players set in_0 cave_data 6
-execute if score temp_0 cave_data matches 10..11 run scoreboard players set in_1 cave_data 36
+execute if score temp_0 cave_data matches 10..11 run scoreboard players set in_1 cave_data 40
 
 execute if score temp_0 cave_data matches 12..13 run scoreboard players set in_0 cave_data 7
-execute if score temp_0 cave_data matches 12..13 run scoreboard players set in_1 cave_data 36
+execute if score temp_0 cave_data matches 12..13 run scoreboard players set in_1 cave_data 40
 
 execute if score temp_0 cave_data matches 14..15 run scoreboard players set in_0 cave_data 8
-execute if score temp_0 cave_data matches 14..15 run scoreboard players set in_1 cave_data 36
+execute if score temp_0 cave_data matches 14..15 run scoreboard players set in_1 cave_data 40
 
 execute if score temp_0 cave_data matches 16..19 run scoreboard players set in_0 cave_data 9
-execute if score temp_0 cave_data matches 16..19 run scoreboard players set in_1 cave_data 32
+execute if score temp_0 cave_data matches 16..19 run scoreboard players set in_1 cave_data 40
 
 execute if score temp_0 cave_data matches 20 run scoreboard players set in_0 cave_data 10
-execute if score temp_0 cave_data matches 20 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 20 run scoreboard players set in_1 cave_data 36
 
 execute if score temp_0 cave_data matches 21 run scoreboard players set in_0 cave_data 11
-execute if score temp_0 cave_data matches 21 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 21 run scoreboard players set in_1 cave_data 32
 
 execute if score temp_0 cave_data matches 22 run scoreboard players set in_0 cave_data 12
-execute if score temp_0 cave_data matches 22 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 22 run scoreboard players set in_1 cave_data 32
 
 execute if score temp_0 cave_data matches 23 run scoreboard players set in_0 cave_data 13
-execute if score temp_0 cave_data matches 23 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 23 run scoreboard players set in_1 cave_data 32
 
 execute if score temp_0 cave_data matches 24 run scoreboard players set in_0 cave_data 14
-execute if score temp_0 cave_data matches 24 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 24 run scoreboard players set in_1 cave_data 32
 
 execute if score temp_0 cave_data matches 25 run scoreboard players set in_0 cave_data 15
-execute if score temp_0 cave_data matches 25 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 25 run scoreboard players set in_1 cave_data 32
 
 execute if score temp_0 cave_data matches 26 run scoreboard players set in_0 cave_data 16
-execute if score temp_0 cave_data matches 26 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 26 run scoreboard players set in_1 cave_data 32
 
 execute if score temp_0 cave_data matches 27 run scoreboard players set in_0 cave_data 17
-execute if score temp_0 cave_data matches 27 run scoreboard players set in_1 cave_data 24
+execute if score temp_0 cave_data matches 27 run scoreboard players set in_1 cave_data 32
 
 scoreboard players set temp_0 cave_data -1
