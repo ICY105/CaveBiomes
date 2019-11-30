@@ -1,3 +1,3 @@
 
 scoreboard objectives add cave_data dummy
-schedule function caves:install 1s
+scoreboard players set $caves.ver load 1000000

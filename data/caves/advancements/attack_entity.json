@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "attack_entity","description": "","icon": {"item": "minecraft:stone"},
+		"hidden":true,
+		"show_toast": false,
+		"announce_to_chat": false
+    },
+	"criteria": {
+        "use_decay_item": {
+			"trigger": "minecraft:player_hurt_entity"
+		}
+    },
+	"rewards":{ 
+		"function":"caves:player/attack_entity"
+	},
+	"parent":"du:base"
+}

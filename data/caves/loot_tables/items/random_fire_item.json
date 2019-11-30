@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/sword/diamond_sword_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/pickaxe/diamond_pickaxe_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/axe/diamond_axe_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/shovel/diamond_shovel_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/helmet/diamond_helmet_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/chestplate/diamond_chestplate_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/leggings/diamond_leggings_fire"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "name": "caves:items/boots/diamond_boots_fire"
+        }
+      ]
+    }
+  ]
+}

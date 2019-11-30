@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Diamond Leggings of Fire","color":"red","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{caves_element: 1, CustomModelData: -6429001}"
+            },
+			{
+				"function":"set_attributes",
+				"modifiers": [
+					{
+						"name":"generic.attackDamage",
+						"attribute":"generic.attackDamage",
+						"operation":"addition",
+						"amount": {
+							"min": 0,
+							"max": 4
+						},
+						"slot":"legs"
+					}
+				]
+			},
+			{
+              "function": "minecraft:set_damage",
+              "damage": {
+				"min": 0.25,
+				"max": 1.0
+			  }
+            },
+			{
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+			  "levels": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

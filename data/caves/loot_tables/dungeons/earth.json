@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "name": "minecraft:chests/simple_dungeon"
+		}
+	  ]
+	},
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "name": "caves:items/random_earth_item"
+		}
+	  ]
+	}
+  ]
+}
+
+

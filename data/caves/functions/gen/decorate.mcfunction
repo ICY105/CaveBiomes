@@ -1,5 +1,7 @@
 
-
+scoreboard players set out_0 cave_data -1
+scoreboard players set out_0 cave_data -1
+replaceitem block -29999999 0 1601 container.0 minecraft:air
 loot replace block -29999999 0 1601 container.0 loot caves:random
 
 execute positioned ~ ~-1 ~ if block ~ ~ ~ #caves:stone run function caves:gen/decorate_floor

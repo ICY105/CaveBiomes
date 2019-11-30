@@ -1,6 +1,7 @@
 
 #generate random height
 scoreboard players set in_0 du_data 12
+execute if score in_2 cave_data matches 2 run scoreboard players set in_0 du_data 3
 function du:math/random
 
 execute if score out_0 du_data matches 0..1 positioned ~ 4 ~ run function caves:structures/small/spawn_small_struct

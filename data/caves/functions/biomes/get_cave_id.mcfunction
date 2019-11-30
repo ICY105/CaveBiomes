@@ -1,6 +1,4 @@
 
-
-
 execute if score $du.biome du_data matches 2 run function caves:biomes/hot
 execute if score $du.biome du_data matches 17 run function caves:biomes/hot
 execute if score $du.biome du_data matches 35..39 run function caves:biomes/hot

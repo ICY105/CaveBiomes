@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Diamond Piackaxe of Water","color":"blue","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{Enchantments:[{id:\"minecraft:fortune\",lvl:20}],caves_element: 3, CustomModelData: -6429003, du_dur:{enabled:1b, max_dur:0}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

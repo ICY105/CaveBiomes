@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "name": "minecraft:chests/stronghold_corridor"
+		}
+	  ]
+	},
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "name": "minecraft:chests/nether_bridge"
+		}
+	  ]
+	},
+	{
+	  "rolls": 1,
+	  "entries": [
+		{
+		  "type": "minecraft:loot_table",
+		  "name": "caves:items/random_fire_item"
+		}
+	  ]
+	}
+  ]
+}
+
+

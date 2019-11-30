@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Diamond Chestplate of Air","color":"yellow","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{caves_element: 2, CustomModelData: -6429002}"
+            },
+			{
+				"function":"set_attributes",
+				"modifiers": [
+					{
+						"name":"generic.maxHealth",
+						"attribute":"generic.maxHealth",
+						"operation":"addition",
+						"amount": {
+							"min": 0,
+							"max": 20
+						},
+						"slot":"chest"
+					}
+				]
+			},
+			{
+              "function": "minecraft:set_damage",
+              "damage": {
+				"min": 0.25,
+				"max": 1.0
+			  }
+            },
+			{
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+			  "levels": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

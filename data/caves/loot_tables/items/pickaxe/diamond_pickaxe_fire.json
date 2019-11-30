@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Diamond Piackaxe of Fire","color":"red","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{caves_element: 1, CustomModelData: -6429001, du_auto_smelt:1b}"
+            },
+			{
+              "function": "minecraft:set_damage",
+              "damage": {
+				"min": 0.25,
+				"max": 1.0
+			  }
+            },
+			{
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+			  "levels": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Diamond Boots of Earth","color":"green","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{caves_element: 4, CustomModelData: -6429004}"
+            },
+			{
+				"function":"set_attributes",
+				"modifiers": [
+					{
+						"name":"generic.movementSpeed",
+						"attribute":"generic.movementSpeed",
+						"operation":"multiply_base",
+						"amount": {
+							"min": 0.1,
+							"max": 1.0
+						},
+						"slot":"feet"
+					}
+				]
+			},
+			{
+              "function": "minecraft:set_damage",
+              "damage": {
+				"min": 0.25,
+				"max": 1.0
+			  }
+            },
+			{
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+			  "levels": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

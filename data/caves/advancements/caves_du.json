@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Cave Biomes",
+			"color":"dark_green"
+        },
+        "description": {
+            "text": "Cave Biomes, created by ImCoolYeah105",
+			"color":"dark_aqua"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "always": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "du:base"
+}

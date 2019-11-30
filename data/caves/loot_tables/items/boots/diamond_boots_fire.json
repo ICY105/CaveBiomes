@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Diamond Boots of Fire","color":"red","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{caves_element: 1, CustomModelData: -6429001}"
+            },
+			{
+				"function":"set_attributes",
+				"modifiers": [
+					{
+						"name":"generic.attackSpeed",
+						"attribute":"generic.attackSpeed",
+						"operation":"multiply_base",
+						"amount": {
+							"min": 0.1,
+							"max": 0.5
+						},
+						"slot":"feet"
+					}
+				]
+			},
+			{
+              "function": "minecraft:set_damage",
+              "damage": {
+				"min": 0.25,
+				"max": 1.0
+			  }
+            },
+			{
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+			  "levels": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
