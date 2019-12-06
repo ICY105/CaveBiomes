@@ -10,7 +10,7 @@
           "functions": [
             {
 			  "function": "minecraft:set_name",
-			  "name": {"text":"Diamond Piackaxe of Fire","color":"red","italic":false}
+			  "name": {"text":"Diamond Shovel of Fire","color":"red","italic":false}
 			},
 			{
               "function": "minecraft:set_nbt",

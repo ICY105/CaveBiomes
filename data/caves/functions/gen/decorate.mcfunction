@@ -1,6 +1,4 @@
 
-scoreboard players set out_0 cave_data -1
-scoreboard players set out_0 cave_data -1
 replaceitem block -29999999 0 1601 container.0 minecraft:air
 loot replace block -29999999 0 1601 container.0 loot caves:random
 

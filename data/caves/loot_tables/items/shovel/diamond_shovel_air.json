@@ -10,7 +10,7 @@
           "functions": [
             {
 			  "function": "minecraft:set_name",
-			  "name": {"text":"Diamond Piackaxe of Air","color":"yellow","italic":false}
+			  "name": {"text":"Diamond Shovel of Air","color":"yellow","italic":false}
 			},
 			{
               "function": "minecraft:set_nbt",

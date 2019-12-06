@@ -10,7 +10,7 @@
           "functions": [
             {
 			  "function": "minecraft:set_name",
-			  "name": {"text":"Diamond Piackaxe of Water","color":"blue","italic":false}
+			  "name": {"text":"Diamond Shovel of Water","color":"blue","italic":false}
 			},
 			{
               "function": "minecraft:set_nbt",

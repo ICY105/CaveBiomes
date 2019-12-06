@@ -10,7 +10,7 @@
           "functions": [
             {
 			  "function": "minecraft:set_name",
-			  "name": {"text":"Diamond Piackaxe of Earth","color":"green","italic":false}
+			  "name": {"text":"Diamond Shovel of Earth","color":"green","italic":false}
 			},
 			{
               "function": "minecraft:set_nbt",

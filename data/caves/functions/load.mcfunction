@@ -1,3 +1,3 @@
 
 scoreboard objectives add cave_data dummy
-scoreboard players set $caves.ver load 1000000
+scoreboard players set $caves.ver load 1000100

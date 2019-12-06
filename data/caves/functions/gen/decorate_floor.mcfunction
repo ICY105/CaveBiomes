@@ -1,7 +1,9 @@
 
 #get ran
-execute store result score out_0 cave_data run data get block -29999999 0 1601 Items[0].tag.AttributeModifiers[2].Amount 1000
-execute store result score out_1 cave_data run data get block -29999999 0 1601 Items[0].tag.AttributeModifiers[3].Amount 1000
+scoreboard players set out_0 cave_data -1
+scoreboard players set out_1 cave_data -1
+execute store result score out_0 cave_data if data block -29999999 0 1601 Items[0].tag.AttributeModifiers[2].Amount run data get block -29999999 0 1601 Items[0].tag.AttributeModifiers[2].Amount 1000
+execute store result score out_1 cave_data if data block -29999999 0 1601 Items[0].tag.AttributeModifiers[3].Amount run data get block -29999999 0 1601 Items[0].tag.AttributeModifiers[3].Amount 1000
 
 # Generic
 execute if score in_0 cave_data matches 0..19 run function caves:gen/biomes_generic/generic_floor
