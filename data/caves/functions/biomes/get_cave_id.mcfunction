@@ -1,27 +1,24 @@
 
-execute if score $du.biome du_data matches 2 run function caves:biomes/hot
-execute if score $du.biome du_data matches 17 run function caves:biomes/hot
-execute if score $du.biome du_data matches 35..39 run function caves:biomes/hot
-execute if score $du.biome du_data matches 130 run function caves:biomes/hot
-execute if score $du.biome du_data matches 163..167 run function caves:biomes/hot
+#get cave biome seed
+scoreboard players set $gen.temp_0 cave_data 48
+scoreboard players operation $gen.temp_1 cave_data = $world.x du_data
+scoreboard players operation $gen.temp_2 cave_data = $world.z du_data
 
-execute if score $du.biome du_data matches 11..13 run function caves:biomes/cold
-execute if score $du.biome du_data matches 26 run function caves:biomes/cold
-execute if score $du.biome du_data matches 30..31 run function caves:biomes/cold
-execute if score $du.biome du_data matches 140 run function caves:biomes/cold
-execute if score $du.biome du_data matches 158 run function caves:biomes/cold
+scoreboard players operation $gen.temp_1 cave_data /= $gen.temp_0 cave_data
+scoreboard players operation $gen.temp_2 cave_data /= $gen.temp_0 cave_data
 
-execute if score $du.biome du_data matches 0 run function caves:biomes/ocean
-execute if score $du.biome du_data matches 10 run function caves:biomes/ocean
-execute if score $du.biome du_data matches 24 run function caves:biomes/ocean
-execute if score $du.biome du_data matches 44..50 run function caves:biomes/ocean
+scoreboard players operation $gen.temp_0 cave_data = $world.seed du_data
+scoreboard players operation $gen.temp_0 cave_data *= $gen.temp_1 cave_data
+scoreboard players operation $gen.temp_0 cave_data *= $gen.temp_2 cave_data
 
-execute if score $du.biome du_data matches 3 run function caves:biomes/hills
-execute if score $du.biome du_data matches 14..15 run function caves:biomes/hills
-execute if score $du.biome du_data matches 20 run function caves:biomes/hills
-execute if score $du.biome du_data matches 34 run function caves:biomes/hills
-execute if score $du.biome du_data matches 131 run function caves:biomes/hills
-execute if score $du.biome du_data matches 133 run function caves:biomes/hills
-execute if score $du.biome du_data matches 162 run function caves:biomes/hills
+scoreboard players set $gen.temp_1 cave_data -1
+execute if score $gen.temp_0 cave_data matches ..-1 run scoreboard players operation $gen.temp_0 cave_data *= $gen.temp_1 cave_data
 
-execute if score temp_0 cave_data matches 0.. run function caves:biomes/generic
+scoreboard players operation $math.rng_seed cave_data = $gen.temp_0 cave_data
+
+#get ID
+execute if predicate caves:hot run function caves:biomes/hot
+execute if predicate caves:cold run function caves:biomes/cold
+execute if predicate caves:ocean run function caves:biomes/ocean
+execute if predicate caves:mountians run function caves:biomes/hills
+execute if score $gen.temp_0 cave_data matches 0.. run function caves:biomes/generic

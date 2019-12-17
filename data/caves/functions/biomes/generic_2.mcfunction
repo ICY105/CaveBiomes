@@ -18,58 +18,94 @@
 #16-1 underground dark oak forest - grass, rose bush
 #17-1 mushroom forest
 
-execute if score temp_0 cave_data matches 0..1 run scoreboard players set in_0 cave_data 0
-execute if score temp_0 cave_data matches 0..1 run scoreboard players set in_1 cave_data 48
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.improved.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 0
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.improved.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 2..3 run scoreboard players set in_0 cave_data 1
-execute if score temp_0 cave_data matches 2..3 run scoreboard players set in_1 cave_data 48
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.clean.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 1
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.clean.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 3..4 run scoreboard players set in_0 cave_data 2
-execute if score temp_0 cave_data matches 3..4 run scoreboard players set in_1 cave_data 48
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.dirty.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 2
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.dirty.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 5..6 run scoreboard players set in_0 cave_data 3
-execute if score temp_0 cave_data matches 5..6 run scoreboard players set in_1 cave_data 48
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.chaotic.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 3
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.chaotic.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 7..8 run scoreboard players set in_0 cave_data 4
-execute if score temp_0 cave_data matches 7..8 run scoreboard players set in_1 cave_data 48
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.sandy.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 4
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.sandy.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 9 run scoreboard players set in_0 cave_data 5
-execute if score temp_0 cave_data matches 9 run scoreboard players set in_1 cave_data 36
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.stone_brick.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 5
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.stone_brick.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 10..11 run scoreboard players set in_0 cave_data 6
-execute if score temp_0 cave_data matches 10..11 run scoreboard players set in_1 cave_data 40
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.granite.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 6
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.granite.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 12..13 run scoreboard players set in_0 cave_data 7
-execute if score temp_0 cave_data matches 12..13 run scoreboard players set in_1 cave_data 40
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.andesite.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 7
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.andesite.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 14..15 run scoreboard players set in_0 cave_data 8
-execute if score temp_0 cave_data matches 14..15 run scoreboard players set in_1 cave_data 40
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.diorite.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 8
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.diorite.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 16..19 run scoreboard players set in_0 cave_data 9
-execute if score temp_0 cave_data matches 16..19 run scoreboard players set in_1 cave_data 40
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.overgrown.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 9
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.overgrown.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 20 run scoreboard players set in_0 cave_data 10
-execute if score temp_0 cave_data matches 20 run scoreboard players set in_1 cave_data 36
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.obsidian.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 10
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.obsidian.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 21 run scoreboard players set in_0 cave_data 11
-execute if score temp_0 cave_data matches 21 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.oak.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 11
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.oak.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 22 run scoreboard players set in_0 cave_data 12
-execute if score temp_0 cave_data matches 22 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.spruce.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 12
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.spruce.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 23 run scoreboard players set in_0 cave_data 13
-execute if score temp_0 cave_data matches 23 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.birch.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 13
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.birch.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 24 run scoreboard players set in_0 cave_data 14
-execute if score temp_0 cave_data matches 24 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.jungle.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 14
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.jungle.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 25 run scoreboard players set in_0 cave_data 15
-execute if score temp_0 cave_data matches 25 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.acacia.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 15
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.acacia.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 26 run scoreboard players set in_0 cave_data 16
-execute if score temp_0 cave_data matches 26 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.dark_oak.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 16
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.dark_oak.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-execute if score temp_0 cave_data matches 27 run scoreboard players set in_0 cave_data 17
-execute if score temp_0 cave_data matches 27 run scoreboard players set in_1 cave_data 32
+execute if score $gen.temp_0 cave_data matches -100.. run scoreboard players operation $gen.temp_0 cave_data -= $config.mushroom.weight cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.in_0 cave_data 17
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players operation $gen.in_1 cave_data = $config.mushroom.height cave_data
+execute if score $gen.temp_0 cave_data matches -100..0 run scoreboard players set $gen.temp_0 cave_data -1000
 
-scoreboard players set temp_0 cave_data -1
+scoreboard players set $gen.temp_0 cave_data -1

@@ -1,7 +1,6 @@
 
-##in_0: cave type
-##in_1: cave height
-#>temp_0: loop counter
+## $gen.in_0 cave_data: cave ID
+## $gen.in_1 cave_data: cave height
 
 execute positioned ~0 4 ~ run function caves:gen/search_2
 execute positioned ~1 4 ~ run function caves:gen/search_2

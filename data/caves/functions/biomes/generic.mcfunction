@@ -35,8 +35,5 @@
 #82: Quartz
 #83: Netherbrick cave
 
-scoreboard players set temp_1 cave_data 29
-scoreboard players operation temp_0 cave_data %= temp_1 cave_data
-
+scoreboard players operation $gen.temp_0 cave_data %= $config.weight.generic cave_data
 function caves:biomes/generic_2
-
