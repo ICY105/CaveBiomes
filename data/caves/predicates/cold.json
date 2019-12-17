@@ -1,0 +1,71 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_taiga"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_taiga_hills"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:giant_tree_taiga"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:giant_tree_taiga_hills"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:giant_spruce_taiga"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:giant_spruce_taiga_hills"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:frozen_river"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_mountains"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_beach"
+      }
+    },
+	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:ice_spikes"
+      }
+    }
+  ]
+}
