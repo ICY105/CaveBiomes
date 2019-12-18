@@ -38,8 +38,8 @@ scoreboard players set $math.temp_2 cave_data 12
 scoreboard players operation $math.temp_0 cave_data %= $math.temp_2 cave_data
 scoreboard players operation $math.temp_1 cave_data %= $math.temp_2 cave_data
 
-execute if score $math.temp_0 cave_data matches 1 if score $math.temp_1 cave_data matches 1 run scoreboard players set $struct.in_0 cave_data 2
-execute if score $math.temp_0 cave_data matches 7 if score $math.temp_1 cave_data matches 7 run scoreboard players set $struct.in_0 cave_data 2
+execute if score $math.temp_0 cave_data matches 0 if score $math.temp_1 cave_data matches 0 run scoreboard players set $struct.in_0 cave_data 2
+execute if score $math.temp_0 cave_data matches 6 if score $math.temp_1 cave_data matches 6 run scoreboard players set $struct.in_0 cave_data 2
 
 # check large
 scoreboard players operation $math.temp_0 cave_data = $math.in_0 cave_data
@@ -48,7 +48,7 @@ scoreboard players set $math.temp_2 cave_data 48
 scoreboard players operation $math.temp_0 cave_data %= $math.temp_2 cave_data
 scoreboard players operation $math.temp_1 cave_data %= $math.temp_2 cave_data
 
-execute if score $math.temp_0 cave_data matches 7 if score $math.temp_1 cave_data matches 7 run scoreboard players set $struct.in_0 cave_data 3
+execute if score $math.temp_0 cave_data matches 6 if score $math.temp_1 cave_data matches 6 run scoreboard players set $struct.in_0 cave_data 3
 
 #run next function
 execute if score $struct.in_0 cave_data matches 1 run function caves:structures/small/create_small_struct
