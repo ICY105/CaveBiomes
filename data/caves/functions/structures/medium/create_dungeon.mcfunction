@@ -9,7 +9,7 @@ execute if predicate caves:ocean run setblock ~ ~ ~ minecraft:structure_block{po
 execute if predicate caves:hot run setblock ~ ~ ~ minecraft:structure_block{posX: -1, posY: 0, posZ: -1, name: "caves:dungeons/fire/fire_dungeon", mode: "LOAD", showboundingbox: 0b}
 
 #mountain (earth)
-execute if predicate caves:mountains run setblock ~ ~ ~ minecraft:structure_block{posX: 0, posY: 0, posZ: 0, name: "caves:dungeons/earth/earth_dungeon", mode: "LOAD", showboundingbox: 0b}
+execute if predicate caves:mountians run setblock ~ ~ ~ minecraft:structure_block{posX: 0, posY: 0, posZ: 0, name: "caves:dungeons/earth/earth_dungeon", mode: "LOAD", showboundingbox: 0b}
 
 #cleanup
 setblock ~ ~1 ~ minecraft:redstone_block
