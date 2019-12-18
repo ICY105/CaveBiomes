@@ -7,3 +7,5 @@ execute if data entity @s SelectedItem{id:"minecraft:diamond_sword"}.tag.caves_e
 execute if score timer_20 du_data matches 5 if data entity @s SelectedItem{id:"minecraft:diamond_pickaxe"}.tag.caves_element run function caves:player/pickaxe
 execute if score timer_20 du_data matches 6 if data entity @s SelectedItem{id:"minecraft:diamond_axe"}.tag.caves_element run function caves:player/axe
 execute if score timer_20 du_data matches 7 if data entity @s SelectedItem{id:"minecraft:diamond_shovel"}.tag.caves_element run function caves:player/shovel
+
+execute if data entity @s SelectedItem.tag.display{Name:'{"text":"debug"}'} run function caves:player/display_cords
