@@ -1,4 +1,15 @@
 
+### Feature disable
+
+# [0,1] Should spawners be generate in certain biomes? (Does not include dungeons).
+scoreboard players set $config.enable.spawners cave_data 1
+
+# [0,1] Should custom dungeons generate?
+scoreboard players set $config.enable.dungeons cave_data 1
+
+# [0,1] Should underground villages generate?
+scoreboard players set $config.enable.villages cave_data 1
+
 ### Normal Caves
 
 # There are 2 settings: weight and height.

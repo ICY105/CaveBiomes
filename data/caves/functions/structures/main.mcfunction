@@ -52,8 +52,8 @@ execute if score $math.temp_0 cave_data matches 6 if score $math.temp_1 cave_dat
 
 #run next function
 execute if score $struct.in_0 cave_data matches 1 run function caves:structures/small/create_small_struct
-execute if score $struct.in_0 cave_data matches 2 run function caves:structures/medium/create_medium_struct
-execute if score $struct.in_0 cave_data matches 3 run function caves:structures/large/create_large_struct
+execute if score $struct.in_0 cave_data matches 2 if score $config.enable.dungeons cave_data matches 1 run function caves:structures/medium/create_medium_struct
+execute if score $struct.in_0 cave_data matches 3 if score $config.enable.villages cave_data matches 1 run function caves:structures/large/create_large_struct
 
 #rerun generation if needed
 execute if score $struct.in_0 cave_data matches 1 positioned ~16 0 ~ if block ~ ~ ~ minecraft:barrier run function caves:gen/search

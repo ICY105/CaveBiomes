@@ -28,6 +28,20 @@
 							"max": 1.0
 						},
 						"slot":"feet"
+					},
+					{
+						"name":"generic.armor",
+						"attribute":"generic.armor",
+						"operation":"addition",
+						"amount": 3,
+						"slot":"feet"
+					},
+					{
+						"name":"generic.armorToughness",
+						"attribute":"generic.armorToughness",
+						"operation":"addition",
+						"amount": 2,
+						"slot":"feet"
 					}
 				]
 			},

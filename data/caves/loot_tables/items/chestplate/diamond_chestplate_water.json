@@ -28,6 +28,13 @@
 							"max": 4
 						},
 						"slot":"chest"
+					},
+					{
+						"name":"generic.armor",
+						"attribute":"generic.armor",
+						"operation":"addition",
+						"amount": 8,
+						"slot":"chest"
 					}
 				]
 			},

@@ -1,4 +1,18 @@
 
+### Feature disable
+
+# [0,1] Should spawners be generate in certain biomes? (Does not include dungeons).
+execute unless score $config.enable.spawners cave_data matches 0..1 run tellraw @a [{"text":"Error: Invalid config setting for ","color":"red"},{"text":"[Enable Biome Spawners]","color":"aqua"},{"text":". Resetting to default.","color":"red"}]
+execute unless score $config.enable.spawners cave_data matches 0..1 run scoreboard players set $config.enable.spawners cave_data 1
+
+# [0,1] Should custom dungeons generate?
+execute unless score $config.enable.dungeons cave_data matches 0..1 run tellraw @a [{"text":"Error: Invalid config setting for ","color":"red"},{"text":"[Enable Custom Dungeons]","color":"aqua"},{"text":". Resetting to default.","color":"red"}]
+execute unless score $config.enable.dungeons cave_data matches 0..1 run scoreboard players set $config.enable.dungeons cave_data 1
+
+# [0,1] Should underground villages generate?
+execute unless score $config.enable.villages cave_data matches 0..1 run tellraw @a [{"text":"Error: Invalid config setting for ","color":"red"},{"text":"[Enable Underground Villages]","color":"aqua"},{"text":". Resetting to default.","color":"red"}]
+execute unless score $config.enable.villages cave_data matches 0..1 run scoreboard players set $config.enable.villages cave_data 1
+
 ### Normal Caves
 
 # Improved Vanilla
