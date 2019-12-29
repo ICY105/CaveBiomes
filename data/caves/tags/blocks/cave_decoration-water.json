@@ -1,22 +1,6 @@
 {
 	"values":[
 		"#caves:water",
-		"minecraft:air",
-		"minecraft:cave_air",
-		"minecraft:oak_planks",
-		"minecraft:oak_fence",
-		"minecraft:dark_oak_planks",
-		"minecraft:dark_oak_fence",
-		"minecraft:cobweb",
-		"minecraft:water",
-		"minecraft:bubble_column",
-		"minecraft:red_mushroom",
-		"minecraft:brown_mushroom",
-		"minecraft:grass",
-		"minecraft:tall_grass",
-		"minecraft:fern",
-		"minecraft:kelp",
-		"minecraft:seagrass",
-		"minecraft:rail"
+		"#caves:cave_decoration"
 	]
 }

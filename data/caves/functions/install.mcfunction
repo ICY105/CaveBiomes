@@ -12,4 +12,4 @@ execute unless score $du.ver load matches 2010002.. run scoreboard players set $
 execute unless score $du.ver load matches 2010002.. run tellraw @a [{"text":"Error: Cave Biomes requires Datapack Utilities version +2.1.0b. You can download that [here].","color":"red","clickEvent":{"action":"open_url","value":"https://github.com/ImCoolYeah105/Datapack-Utilities/releases"}}]
 
 #print install message
-execute if score $install cave_data matches 1 run tellraw @a [{"text":"[Loaded Cave Biomes v1.1.0c]","color":"dark_green"}]
+execute if score $install cave_data matches 1 run tellraw @a [{"text":"[Loaded Cave Biomes v1.1.1]","color":"dark_green"}]
