@@ -4,6 +4,7 @@
 		"minecraft:cave_air",
 		"minecraft:fire",
 		"minecraft:brown_mushroom",
-		"minecraft:red_mushroom"
+		"minecraft:red_mushroom",
+		"#du:non-solid"
 	]
 }
