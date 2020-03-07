@@ -1,6 +1,6 @@
 {
 	"values":[
 		"minecraft:lava",
-		"#caves_nether:nether_decoration"
+		"#caves:nether_decoration"
 	]
 }
