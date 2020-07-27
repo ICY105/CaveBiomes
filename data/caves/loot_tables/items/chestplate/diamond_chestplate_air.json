@@ -20,8 +20,8 @@
 				"function":"set_attributes",
 				"modifiers": [
 					{
-						"name":"generic.maxHealth",
-						"attribute":"generic.maxHealth",
+						"name":"generic.max_health",
+						"attribute":"generic.max_health",
 						"operation":"addition",
 						"amount": {
 							"min": 0,
@@ -37,8 +37,8 @@
 						"slot":"chest"
 					},
 					{
-						"name":"generic.armorToughness",
-						"attribute":"generic.armorToughness",
+						"name":"generic.armor_toughness",
+						"attribute":"generic.armor_toughness",
 						"operation":"addition",
 						"amount": 2,
 						"slot":"chest"

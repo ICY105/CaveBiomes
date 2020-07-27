@@ -20,8 +20,8 @@
 				"function":"set_attributes",
 				"modifiers": [
 					{
-						"name":"generic.knockbackResistance",
-						"attribute":"generic.knockbackResistance",
+						"name":"generic.knockback_resistance",
+						"attribute":"generic.knockback_resistance",
 						"operation":"addition",
 						"amount": {
 							"min": 0,
@@ -37,8 +37,8 @@
 						"slot":"chest"
 					},
 					{
-						"name":"generic.armorToughness",
-						"attribute":"generic.armorToughness",
+						"name":"generic.armor_toughness",
+						"attribute":"generic.armor_toughness",
 						"operation":"addition",
 						"amount": 2,
 						"slot":"chest"

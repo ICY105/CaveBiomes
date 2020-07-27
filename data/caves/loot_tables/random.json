@@ -12,8 +12,8 @@
 			  "function": "minecraft:set_attributes",
 			  "modifiers": [
 			    {
-				  "name":"generic.0",
-				  "attribute":"generic.0",
+				  "name":"generic.max_health",
+				  "attribute":"generic.max_health",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -22,8 +22,8 @@
 				  }
 				},
 				{
-				  "name":"generic.1",
-				  "attribute":"generic.1",
+				  "name":"generic.movement_speed",
+				  "attribute":"generic.movement_speed",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -32,8 +32,8 @@
 				  }
 				},
 				{
-				  "name":"generic.2",
-				  "attribute":"generic.2",
+				  "name":"generic.attack_damage",
+				  "attribute":"generic.attack_damage",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -42,8 +42,8 @@
 				  }
 				},
 				{
-				  "name":"generic.3",
-				  "attribute":"generic.3",
+				  "name":"generic.attack_speed",
+				  "attribute":"generic.attack_speed",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -52,8 +52,8 @@
 				  }
 				},
 				{
-				  "name":"generic.4",
-				  "attribute":"generic.4",
+				  "name":"generic.armor",
+				  "attribute":"generic.armor",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -62,8 +62,8 @@
 				  }
 				},
 				{
-				  "name":"generic.5",
-				  "attribute":"generic.5",
+				  "name":"generic.armor_toughness",
+				  "attribute":"generic.armor_toughness",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -72,8 +72,8 @@
 				  }
 				},
 				{
-				  "name":"generic.6",
-				  "attribute":"generic.6",
+				  "name":"generic.luck",
+				  "attribute":"generic.luck",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -82,8 +82,8 @@
 				  }
 				},
 				{
-				  "name":"generic.7",
-				  "attribute":"generic.7",
+				  "name":"generic.follow_range",
+				  "attribute":"generic.follow_range",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -92,8 +92,8 @@
 				  }
 				},
 				{
-				  "name":"generic.8",
-				  "attribute":"generic.8",
+				  "name":"horse.jump_strength",
+				  "attribute":"horse.jump_strength",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -102,8 +102,8 @@
 				  }
 				},
 				{
-				  "name":"generic.9",
-				  "attribute":"generic.9",
+				  "name":"zombie.spawn_reinforcements",
+				  "attribute":"zombie.spawn_reinforcements",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -112,8 +112,8 @@
 				  }
 				},
 				{
-				  "name":"generic.10",
-				  "attribute":"generic.10",
+				  "name":"zombie.spawn_reinforcements",
+				  "attribute":"zombie.spawn_reinforcements",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{
@@ -122,8 +122,8 @@
 				  }
 				},
 				{
-				  "name":"generic.11",
-				  "attribute":"generic.11",
+				  "name":"zombie.spawn_reinforcements",
+				  "attribute":"zombie.spawn_reinforcements",
 				  "operation":"addition",
 				  "slot":"head",
 				  "amount":{

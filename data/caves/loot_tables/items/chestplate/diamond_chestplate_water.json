@@ -20,8 +20,8 @@
 				"function":"set_attributes",
 				"modifiers": [
 					{
-						"name":"generic.armorToughness",
-						"attribute":"generic.armorToughness",
+						"name":"generic.armor_toughness",
+						"attribute":"generic.armor_toughness",
 						"operation":"addition",
 						"amount": {
 							"min": 2,

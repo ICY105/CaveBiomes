@@ -20,8 +20,8 @@
 				"function":"set_attributes",
 				"modifiers": [
 					{
-						"name":"generic.attackDamage",
-						"attribute":"generic.attackDamage",
+						"name":"generic.attack_damage",
+						"attribute":"generic.attack_damage",
 						"operation":"addition",
 						"amount": {
 							"min": 0,
@@ -37,8 +37,8 @@
 						"slot":"legs"
 					},
 					{
-						"name":"generic.armorToughness",
-						"attribute":"generic.armorToughness",
+						"name":"generic.armor_toughness",
+						"attribute":"generic.armor_toughness",
 						"operation":"addition",
 						"amount": 2,
 						"slot":"legs"

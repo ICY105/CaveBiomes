@@ -20,8 +20,8 @@
 				"function":"set_attributes",
 				"modifiers": [
 					{
-						"name":"generic.attackSpeed",
-						"attribute":"generic.attackSpeed",
+						"name":"generic.attack_speed",
+						"attribute":"generic.attack_speed",
 						"operation":"multiply_base",
 						"amount": {
 							"min": 0.1,
@@ -37,8 +37,8 @@
 						"slot":"feet"
 					},
 					{
-						"name":"generic.armorToughness",
-						"attribute":"generic.armorToughness",
+						"name":"generic.armor_toughness",
+						"attribute":"generic.armor_toughness",
 						"operation":"addition",
 						"amount": 2,
 						"slot":"feet"
