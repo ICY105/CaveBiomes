@@ -14,6 +14,11 @@
 		"minecraft:fern",
 		"minecraft:kelp",
 		"minecraft:seagrass",
-		"minecraft:rail"
+		"minecraft:rail",
+		"minecraft:glow_lichen",
+		"minecraft:small_dripleaf",
+		"minecraft:big_dripleaf",
+		"minecraft:moss_block",
+		"minecraft:moss_carpet"
 	]
 }

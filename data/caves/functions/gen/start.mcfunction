@@ -1,9 +1,7 @@
 
 ## $world.x: x cord
 ## $world.z: z cord
-## $world.dim: current dimension
-## $world.biome: current biome
-#* $world.seed: world seed
+## $world.seed: world seed
 
 #- $gen.in_0 cave_data: cave ID
 #- $gen.in_1 cave_data: cave height

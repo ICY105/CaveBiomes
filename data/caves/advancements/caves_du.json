@@ -5,11 +5,11 @@
 			"color":"dark_green"
         },
         "description": {
-            "text": "Cave Biomes, created by ImCoolYeah105",
+            "text": "v1.2.0",
 			"color":"dark_aqua"
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:deepslate"
         },
         "frame": "goal",
         "show_toast": false,

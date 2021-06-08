@@ -10,6 +10,8 @@
 		"minecraft:diorite",
 		"minecraft:gravel",
 		"minecraft:dirt",
-		"minecraft:netherrack"
+		"minecraft:netherrack",
+		"minecraft:deepslate",
+		"minecraft:tuff"
 	]
 }
