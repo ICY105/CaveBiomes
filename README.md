@@ -1,3 +1,5 @@
+As of Minecraft 1.18 (30/11/2018) Cave Biomes has been discontinoued. Consider using a much better world gen datapack like Terralith instead. If anyone really wants to pick up development of this pack, feel free to do so.
+
 Warning: This project generates new caves in existing chunks, and may damage underground structures you have built. It is highly recommended to install in a new world. If you add it to an existing world, take a backup first!
 
 # CaveBiomes
